@@ -1,4 +1,4 @@
-import { citySuggestions } from "./data.js";
+import { citySuggestions } from "./data/oldData.js";
 
 for (const element of citySuggestions) {
     if (element.code === "ATL") {

@@ -1,12 +1,17 @@
-export const citySuggestions = [
+export const oldSugestions = [
+  // 1.
   { name: "New York, New York", code: "JFK" },
   { name: "Los Angeles, California", code: "LAX" },
   { name: "Chicago, Illinois", code: "ORD" },
   { name: "Toronto, Ontario", code: "YYZ" },
+  // 5
   { name: "Dallas, Texas", code: "DFW" },
+  // 4 
   { name: "Miami, Florida", code: "MIA" },
   { name: "Atlanta, Georgia", code: "ATL" },
+  // 2 
   { name: "Washington, D.C.", code: "DCA" },
+  // 3 
   { name: "Boston, Massachusetts", code: "BOS" },
   { name: "San Francisco, California", code: "SFO" },
   { name: "Seattle, Washington", code: "SEA" },
@@ -16,6 +21,7 @@ export const citySuggestions = [
   { name: "Houston, Texas", code: "IAH" },
   { name: "Phoenix, Arizona", code: "PHX" },
   { name: "Las Vegas, Nevada", code: "LAS" },
+  // 4
   { name: "Orlando, Florida", code: "MCO" },
   { name: "New Orleans, Louisiana", code: "MSY" },
   { name: "San Diego, California", code: "SAN" },
