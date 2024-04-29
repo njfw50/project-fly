@@ -8,8 +8,22 @@ function getByQuery(query) {
     if (element.city === query) {
         // Se corresponder, exibe o elemento no console
         console.log(element)
+    } else {
+        console.log('Não foi encontrado!')
     }
+
+    // Verifica se alguma iata tem incluso o valor da query recebida
+    if (element.iata.includes(query)) {
+        // Se tiver incluso, exibe o elemento no console
+     console.log(element)   
+    }
+
+    if (element.state === query || element.contry === query) {
+        console.log(element)
+    }
+
    }
 }
 
-console.log(getByQuery("GIG"))
+
+getByQuery('BRA')
