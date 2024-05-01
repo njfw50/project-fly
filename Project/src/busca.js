@@ -15,8 +15,8 @@ export function busca(value, divQuery, data) {
     divQuery.innerHTML = "";
 
     dataQuery.map(e => divQuery.innerHTML += `
-    <h3>${e.city}</h3>
-    <p>${e.contry} ${e.state}</p>
+    <h3 class="fw-bold">${e.city}</h3>
+    <p class="text-primary">${e.contry} ${e.state}</p>
     <p>Code iata airport ${e.iata.join(" ")}</p>
 `)
 };

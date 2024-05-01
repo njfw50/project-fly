@@ -1,7 +1,10 @@
 import { busca } from "./busca.js";
 import { data } from "./data/data.js";
 
-const inputQuery = document.getElementById('input-query');
-const divQuery = document.getElementById('div-query');
+const inputOutbound = document.getElementById('input-outbound');
+const inputInbound = document.getElementById('input-inbound');
+const divOutbound = document.getElementById('div-outbound');
+const divInbound = document.getElementById('div-inbound');
 
-inputQuery.addEventListener('input', ({ target: { value } }) => busca(value, divQuery, data));
+inputOutbound.addEventListener('input', ({ target: { value } }) => busca(value, divOutbound, data));
+inputInbound.addEventListener('input', ({ target: { value } }) => busca(value, divInbound, data));
