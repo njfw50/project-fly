@@ -1,5 +1,6 @@
 {
-    "[markdown]": {
-        "editor.defaultFormatter": "Jota0222.multi-formatter"
-    }
+  "[markdown]": {
+    "editor.defaultFormatter": "Jota0222.multi-formatter"
+  },
+  "liveServer.settings.port": 5501
 }
